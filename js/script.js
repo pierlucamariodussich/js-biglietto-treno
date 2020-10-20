@@ -1,7 +1,6 @@
 
 var km = parseInt(prompt("Quanti Km devi fare ?"));
 var eta = parseInt(prompt("Quanti anni hai ?"));
-console.log( "kilometri: " + km + ", Età: "+ eta);
 var totale = km * 0.21;
 
 
