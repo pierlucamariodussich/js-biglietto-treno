@@ -1,0 +1,125 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.layout{
+  background-image: url(../img/trenogiallo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  align-items: left;
+  justify-content: right;
+  height: 20vh;
+  width: 100vw;
+}
+
+nav .container{
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: calc(100vw / 3);
+
+}
+
+nav .container:first-child{
+  background-color: black;
+  width: calc(100vw / 3);
+  height: 15vh;
+}
+nav .container:last-child{
+  background-color: black;
+  width: calc(100vw / 3);
+  height: 15vh;
+
+}
+
+nav .contentblack{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+}
+
+nav .contentlogo{
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 20vh;
+}
+
+.shop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.quadrato{
+  border: 2px solid #E2BA13;
+  border-radius: 5px;
+
+
+}
+
+i{
+  color: #E2BA13;
+  padding:10px 14px;
+}
+
+img{
+  height: 18vh;
+}
+
+
+header {
+  height: 80vh;
+}
+
+header .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.sfondo{
+  background-color: rgba(0,0,0,0.7);
+  height: 30vh;
+  width: 100vw;
+  color: #E2BA13;
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 30px;
+}
+
+.riquadro{
+  height: 60px;
+  border-radius: 5px;
+  background-color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 15px;
+  color: black;
+  line-height: 60px;
+}
+
+h2{
+  vertical-align: middle;
+}
+
+h3{
+  color:#E2BA13;
+  padding: 5px 5px;
+}
