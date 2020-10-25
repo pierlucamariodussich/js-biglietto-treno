@@ -39,14 +39,35 @@
           </div>
         </div>
       </nav>
-      <header>
+      <section class=" dati">
         <div class="container ">
           <div class="row">
             <div class="content">
-              <div class="sfondo">
-                <h1>TOTALE BIGLIETTO:</h1>
+              <div class="row">
                  <div class="riquadro">
-                   <h2 id="totale">  </h2>
+                   <div class="ticket">
+
+                       <label for="text">Nome</label>
+                       <input id="nome" type="text" name="Nome" value="" required>
+                       <label for="text">Cognome</label>
+                       <input id="cognome" type="text" name="Cognome" value="" required>
+                       <label for="number"> Per quanti Km?</label>
+                       <input id="km" type="number" name="Km" value="" min="1" max="500" required>
+                       <label for="number"> Età</label>
+                       <input id="eta" type="number" name="eta" value="" min="1" max="110" required>
+                       <button id="send" type="submit" name="button"> INVIA</button>
+                       <button id="reset" type="reset" name="button"> AGGIORNA</button>
+
+
+
+
+
+
+
+
+
+
+                   </div>
 
                  </div>
 
@@ -54,7 +75,43 @@
             </div>
           </div>
         </div>
-      </header>
+
+      </section>
+      <section id="boxT" class="biglietto hidden ">
+        <div class="container ">
+          <div class="row">
+            <div class="content">
+              <div class="sfondo">
+                <h1>Resoconto biglietto</h1>
+                 <div class="riquadro">
+                   <!-- <h2 id="totale">  </h2> -->
+                   <div class="ticket">
+                     <table>
+                       <tr>
+                         <th>Nome Passeggero</th>
+                         <th>Offerta</th>
+                         <th>Carrozza</th>
+                         <th>Codice CP</th>
+                         <th>Costo Biglietto</th>
+                       </tr>
+                       <tr>
+                         <td id="user"></td>
+                         <td id="discount"></td>
+                         <td id="carriage"></td>
+                         <td id="cp"></td>
+                         <td id="totale"></td>
+                       </tr>
+                     </table>
+
+                   </div>
+
+                 </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
     </div>
 

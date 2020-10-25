@@ -15,7 +15,6 @@
 
 nav {
   display: flex;
-  align-items: left;
   justify-content: right;
   height: 20vh;
   width: 100vw;
@@ -60,7 +59,7 @@ nav .contentlogo{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 10vh;
+  height: 15vh;
 }
 
 .quadrato{
@@ -79,40 +78,64 @@ img{
   height: 18vh;
 }
 
-
-header {
-  height: 80vh;
+.dati {
+  height: 40vh;
 }
 
-header .content{
+.biglietto {
+  height: 40vh;
+}
+
+.dati .content{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 40vh;
+}
+
+.biglietto .content{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 40vh;
+}
+
+.dati .row{
+
+
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+
 }
 
 .sfondo{
   background-color: rgba(0,0,0,0.7);
-  height: 30vh;
+  height: 40vh;
   width: 100vw;
   color: #E2BA13;
   text-align: center;
 }
 
-header h1 {
-  margin-top: 30px;
+.biglietto h1 {
+  margin-top: 10px;
+
 }
 
 .riquadro{
-  height: 60px;
+  height: 220px;
   border-radius: 5px;
   background-color: white;
-  width: 50%;
+  width: 80%;
   margin-left: auto;
   margin-right:auto;
   margin-top: 15px;
   color: black;
   line-height: 60px;
+}
+
+.dati .riquadro{
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 h2{
@@ -122,4 +145,93 @@ h2{
 h3{
   color:#E2BA13;
   padding: 5px 5px;
+}
+
+.ticket {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+table{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+
+  height: 170px;
+  width: 90%;
+}
+
+tr:first-child{
+  background-color: black;
+}
+
+th{
+  color: white;
+  font-weight: bolder;
+  padding: 10px 20px;
+}
+
+.form{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button{
+  
+  border: 1px solid #E2BA13;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
+  color: #E2BA13;
+  margin: 0 15px;
+  width: 40%;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+
+.ticket {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+
+}
+
+.ticket label{
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 700;
+}
+
+
+.ticket input{
+  border-radius: 5px;
+  padding: 5px 5px;
+  border: 2px solid  black;
+  width: 150px;
+  background-color:#E2BA13;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.hidden{
+  display:none
+}
+
+.ticket input:last-child {
+  border: 1px solid #E2BA13;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: black;
+  color: #E2BA13;
+  margin: 0 15px;
+  width: 40%;
 }
